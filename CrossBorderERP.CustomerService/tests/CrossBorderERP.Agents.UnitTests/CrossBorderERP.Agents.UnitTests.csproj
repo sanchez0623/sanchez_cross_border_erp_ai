@@ -18,4 +18,10 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Core\CrossBorderERP.Core\CrossBorderERP.Core.csproj" />
+    <ProjectReference Include="..\..\src\Infrastructure\CrossBorderERP.Infrastructure\CrossBorderERP.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Agents\CrossBorderERP.Agents\CrossBorderERP.Agents.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\CrossBorderERP.Core\CrossBorderERP.Core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\CrossBorderERP.Infrastructure\CrossBorderERP.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Agents\CrossBorderERP.Agents\CrossBorderERP.Agents.csproj" />
+  </ItemGroup>
+
 </Project>
