@@ -64,8 +64,7 @@ public class ToolsTests
         // Assert
         Assert.NotNull(products);
         Assert.NotEmpty(products);
-        Assert.Contains(products, p => 
-            p.ProductName.Contains(keyword, StringComparison.OrdinalIgnoreCase));
+        Assert.Contains(products, p => p.ProductName.Contains(keyword, StringComparison.OrdinalIgnoreCase));
     }
 
     [Fact]
